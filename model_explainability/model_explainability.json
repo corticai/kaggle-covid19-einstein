@@ -1,0 +1,718 @@
+{
+    "negative": {
+        "bottom": [
+            {
+                "idx": 36,
+                "contents": {
+                    "actual_value": "negative",
+                    "column_names": [
+                        "patient_addmited_to_regular_ward_1_yes_0_no",
+                        "patient_age_quantile",
+                        "rhinovirus_enterovirus",
+                        "monocytes",
+                        "influenza_b"
+                    ],
+                    "class_names": [
+                        "negative",
+                        "positive"
+                    ],
+                    "classes": [
+                        "negative",
+                        "positive"
+                    ],
+                    "predicted_probs": [
+                        0.7633711522090275,
+                        0.2366288477909725
+                    ],
+                    "top_class_name": "negative",
+                    "top_class_prob": 0.7633711522090275,
+                    "feature_contribution": [
+                        [
+                            "patient_addmited_to_regular_ward_1_yes_0_no=f",
+                            0.021854272319551775
+                        ],
+                        [
+                            "patient_age_quantile > 9.25",
+                            -0.01171810570165659
+                        ],
+                        [
+                            "rhinovirus_enterovirus=not_detected",
+                            -0.006048670578924594
+                        ],
+                        [
+                            "monocytes > 0.00",
+                            -0.005112354662468566
+                        ],
+                        [
+                            "influenza_b=detected",
+                            -0.004256622981968355
+                        ]
+                    ],
+                    "html": null
+                }
+            },
+            {
+                "idx": 0,
+                "contents": {
+                    "actual_value": "negative",
+                    "column_names": [
+                        "patient_addmited_to_regular_ward_1_yes_0_no",
+                        "patient_age_quantile",
+                        "rhinovirus_enterovirus",
+                        "monocytes",
+                        "leukocytes"
+                    ],
+                    "class_names": [
+                        "negative",
+                        "positive"
+                    ],
+                    "classes": [
+                        "negative",
+                        "positive"
+                    ],
+                    "predicted_probs": [
+                        0.8562598135380717,
+                        0.14374018646192832
+                    ],
+                    "top_class_name": "negative",
+                    "top_class_prob": 0.8562598135380717,
+                    "feature_contribution": [
+                        [
+                            "patient_addmited_to_regular_ward_1_yes_0_no=f",
+                            0.02980958402576308
+                        ],
+                        [
+                            "2.00 < patient_age_quantile <= 9.25",
+                            -0.0077648717564499335
+                        ],
+                        [
+                            "rhinovirus_enterovirus=not_detected",
+                            -0.005592871963562816
+                        ],
+                        [
+                            "monocytes > 0.00",
+                            -0.005051218539323124
+                        ],
+                        [
+                            "leukocytes <= 0.00",
+                            -0.002505063745243979
+                        ]
+                    ],
+                    "html": null
+                }
+            },
+            {
+                "idx": 37,
+                "contents": {
+                    "actual_value": "negative",
+                    "column_names": [
+                        "patient_addmited_to_regular_ward_1_yes_0_no",
+                        "patient_age_quantile",
+                        "rhinovirus_enterovirus",
+                        "monocytes",
+                        "leukocytes"
+                    ],
+                    "class_names": [
+                        "negative",
+                        "positive"
+                    ],
+                    "classes": [
+                        "negative",
+                        "positive"
+                    ],
+                    "predicted_probs": [
+                        0.900804187201422,
+                        0.09919581279857798
+                    ],
+                    "top_class_name": "negative",
+                    "top_class_prob": 0.900804187201422,
+                    "feature_contribution": [
+                        [
+                            "patient_addmited_to_regular_ward_1_yes_0_no=f",
+                            0.029869763271142782
+                        ],
+                        [
+                            "2.00 < patient_age_quantile <= 9.25",
+                            -0.007474995277658648
+                        ],
+                        [
+                            "rhinovirus_enterovirus=not_detected",
+                            -0.005603905370515963
+                        ],
+                        [
+                            "monocytes > 0.00",
+                            -0.00432408830326698
+                        ],
+                        [
+                            "leukocytes <= 0.00",
+                            -0.0018456703943796585
+                        ]
+                    ],
+                    "html": null
+                }
+            }
+        ],
+        "middle": [
+            {
+                "idx": 1,
+                "contents": {
+                    "actual_value": "negative",
+                    "column_names": [
+                        "patient_addmited_to_regular_ward_1_yes_0_no",
+                        "patient_age_quantile",
+                        "rhinovirus_enterovirus",
+                        "monocytes",
+                        "leukocytes"
+                    ],
+                    "class_names": [
+                        "negative",
+                        "positive"
+                    ],
+                    "classes": [
+                        "negative",
+                        "positive"
+                    ],
+                    "predicted_probs": [
+                        0.928462450910082,
+                        0.07153754908991804
+                    ],
+                    "top_class_name": "negative",
+                    "top_class_prob": 0.928462450910082,
+                    "feature_contribution": [
+                        [
+                            "patient_addmited_to_regular_ward_1_yes_0_no=f",
+                            0.025591520187067347
+                        ],
+                        [
+                            "patient_age_quantile <= 1.00",
+                            0.008359862830808432
+                        ],
+                        [
+                            "rhinovirus_enterovirus=not_detected",
+                            -0.006268325515534555
+                        ],
+                        [
+                            "monocytes <= 0.00",
+                            0.004592884304339993
+                        ],
+                        [
+                            "leukocytes <= 0.00",
+                            -0.00219170610071502
+                        ]
+                    ],
+                    "html": null
+                }
+            },
+            {
+                "idx": 12,
+                "contents": {
+                    "actual_value": "negative",
+                    "column_names": [
+                        "patient_addmited_to_regular_ward_1_yes_0_no",
+                        "patient_age_quantile",
+                        "rhinovirus_enterovirus",
+                        "monocytes",
+                        "leukocytes"
+                    ],
+                    "class_names": [
+                        "negative",
+                        "positive"
+                    ],
+                    "classes": [
+                        "negative",
+                        "positive"
+                    ],
+                    "predicted_probs": [
+                        0.928462450910082,
+                        0.07153754908991804
+                    ],
+                    "top_class_name": "negative",
+                    "top_class_prob": 0.928462450910082,
+                    "feature_contribution": [
+                        [
+                            "patient_addmited_to_regular_ward_1_yes_0_no=f",
+                            0.027681778890988412
+                        ],
+                        [
+                            "patient_age_quantile <= 1.00",
+                            0.00805208693685177
+                        ],
+                        [
+                            "rhinovirus_enterovirus=not_detected",
+                            -0.005291762258306404
+                        ],
+                        [
+                            "monocytes <= 0.00",
+                            0.0040453730546152694
+                        ],
+                        [
+                            "leukocytes <= 0.00",
+                            -0.001776297130901831
+                        ]
+                    ],
+                    "html": null
+                }
+            },
+            {
+                "idx": 13,
+                "contents": {
+                    "actual_value": "negative",
+                    "column_names": [
+                        "patient_addmited_to_regular_ward_1_yes_0_no",
+                        "patient_age_quantile",
+                        "rhinovirus_enterovirus",
+                        "monocytes",
+                        "influenza_b"
+                    ],
+                    "class_names": [
+                        "negative",
+                        "positive"
+                    ],
+                    "classes": [
+                        "negative",
+                        "positive"
+                    ],
+                    "predicted_probs": [
+                        0.928462450910082,
+                        0.07153754908991804
+                    ],
+                    "top_class_name": "negative",
+                    "top_class_prob": 0.928462450910082,
+                    "feature_contribution": [
+                        [
+                            "patient_addmited_to_regular_ward_1_yes_0_no=f",
+                            0.025318838164979256
+                        ],
+                        [
+                            "patient_age_quantile <= 1.00",
+                            0.007830453667307512
+                        ],
+                        [
+                            "rhinovirus_enterovirus=not_detected",
+                            -0.005928948210268152
+                        ],
+                        [
+                            "monocytes <= 0.00",
+                            0.004927985503367776
+                        ],
+                        [
+                            "influenza_b=not_detected",
+                            0.004286551748024355
+                        ]
+                    ],
+                    "html": null
+                }
+            }
+        ],
+        "top": [
+            {
+                "idx": 16,
+                "contents": {
+                    "actual_value": "negative",
+                    "column_names": [
+                        "patient_addmited_to_regular_ward_1_yes_0_no",
+                        "patient_age_quantile",
+                        "rhinovirus_enterovirus",
+                        "monocytes",
+                        "eosinophils"
+                    ],
+                    "class_names": [
+                        "negative",
+                        "positive"
+                    ],
+                    "classes": [
+                        "negative",
+                        "positive"
+                    ],
+                    "predicted_probs": [
+                        0.9318210071222192,
+                        0.06817899287778079
+                    ],
+                    "top_class_name": "negative",
+                    "top_class_prob": 0.9318210071222192,
+                    "feature_contribution": [
+                        [
+                            "patient_addmited_to_regular_ward_1_yes_0_no=f",
+                            0.027186940735407124
+                        ],
+                        [
+                            "1.00 < patient_age_quantile <= 2.00",
+                            0.009309460287263049
+                        ],
+                        [
+                            "rhinovirus_enterovirus=detected",
+                            0.006254724217770555
+                        ],
+                        [
+                            "monocytes <= 0.00",
+                            0.005281049776066772
+                        ],
+                        [
+                            "-0.02 < eosinophils <= 0.00",
+                            0.0020924652292048764
+                        ]
+                    ],
+                    "html": null
+                }
+            },
+            {
+                "idx": 26,
+                "contents": {
+                    "actual_value": "negative",
+                    "column_names": [
+                        "patient_addmited_to_regular_ward_1_yes_0_no",
+                        "patient_age_quantile",
+                        "rhinovirus_enterovirus",
+                        "monocytes",
+                        "leukocytes"
+                    ],
+                    "class_names": [
+                        "negative",
+                        "positive"
+                    ],
+                    "classes": [
+                        "negative",
+                        "positive"
+                    ],
+                    "predicted_probs": [
+                        0.9318210071222192,
+                        0.06817899287778079
+                    ],
+                    "top_class_name": "negative",
+                    "top_class_prob": 0.9318210071222192,
+                    "feature_contribution": [
+                        [
+                            "patient_addmited_to_regular_ward_1_yes_0_no=f",
+                            0.026927634063868805
+                        ],
+                        [
+                            "1.00 < patient_age_quantile <= 2.00",
+                            0.009570848646371682
+                        ],
+                        [
+                            "rhinovirus_enterovirus=detected",
+                            0.005581134262799972
+                        ],
+                        [
+                            "monocytes <= 0.00",
+                            0.0044476051831978365
+                        ],
+                        [
+                            "leukocytes <= 0.00",
+                            -0.0021395566650525863
+                        ]
+                    ],
+                    "html": null
+                }
+            },
+            {
+                "idx": 25,
+                "contents": {
+                    "actual_value": "negative",
+                    "column_names": [
+                        "patient_addmited_to_regular_ward_1_yes_0_no",
+                        "patient_age_quantile",
+                        "monocytes",
+                        "rhinovirus_enterovirus",
+                        "leukocytes"
+                    ],
+                    "class_names": [
+                        "negative",
+                        "positive"
+                    ],
+                    "classes": [
+                        "negative",
+                        "positive"
+                    ],
+                    "predicted_probs": [
+                        0.9318210071222192,
+                        0.06817899287778079
+                    ],
+                    "top_class_name": "negative",
+                    "top_class_prob": 0.9318210071222192,
+                    "feature_contribution": [
+                        [
+                            "patient_addmited_to_regular_ward_1_yes_0_no=f",
+                            0.028355120424695273
+                        ],
+                        [
+                            "1.00 < patient_age_quantile <= 2.00",
+                            0.009069670160061454
+                        ],
+                        [
+                            "monocytes <= 0.00",
+                            0.0061249584391667306
+                        ],
+                        [
+                            "rhinovirus_enterovirus=detected",
+                            0.00561967879773854
+                        ],
+                        [
+                            "leukocytes <= 0.00",
+                            -0.0023788574479416996
+                        ]
+                    ],
+                    "html": null
+                }
+            }
+        ]
+    },
+    "positive": {
+        "bottom": [
+            {
+                "idx": 24,
+                "contents": {
+                    "actual_value": "positive",
+                    "column_names": [
+                        "patient_addmited_to_regular_ward_1_yes_0_no",
+                        "patient_age_quantile",
+                        "rhinovirus_enterovirus",
+                        "monocytes",
+                        "leukocytes"
+                    ],
+                    "class_names": [
+                        "negative",
+                        "positive"
+                    ],
+                    "classes": [
+                        "negative",
+                        "positive"
+                    ],
+                    "predicted_probs": [
+                        0.8336423235544109,
+                        0.16635767644558905
+                    ],
+                    "top_class_name": "negative",
+                    "top_class_prob": 0.8336423235544109,
+                    "feature_contribution": [
+                        [
+                            "patient_addmited_to_regular_ward_1_yes_0_no=f",
+                            -0.02513390884261681
+                        ],
+                        [
+                            "patient_age_quantile > 9.25",
+                            0.012069028713758298
+                        ],
+                        [
+                            "rhinovirus_enterovirus=not_detected",
+                            0.005446432404593516
+                        ],
+                        [
+                            "monocytes > 0.00",
+                            0.005115057003257799
+                        ],
+                        [
+                            "leukocytes <= 0.00",
+                            0.002292183593077934
+                        ]
+                    ],
+                    "html": null
+                }
+            },
+            {
+                "idx": 55,
+                "contents": {
+                    "actual_value": "positive",
+                    "column_names": [
+                        "patient_addmited_to_regular_ward_1_yes_0_no",
+                        "patient_age_quantile",
+                        "monocytes",
+                        "rhinovirus_enterovirus",
+                        "leukocytes"
+                    ],
+                    "class_names": [
+                        "negative",
+                        "positive"
+                    ],
+                    "classes": [
+                        "negative",
+                        "positive"
+                    ],
+                    "predicted_probs": [
+                        0.8134160734133568,
+                        0.1865839265866432
+                    ],
+                    "top_class_name": "negative",
+                    "top_class_prob": 0.8134160734133568,
+                    "feature_contribution": [
+                        [
+                            "patient_addmited_to_regular_ward_1_yes_0_no=t",
+                            0.027619529513550144
+                        ],
+                        [
+                            "patient_age_quantile > 9.25",
+                            0.012418365315637704
+                        ],
+                        [
+                            "monocytes > 0.00",
+                            0.005696918777137164
+                        ],
+                        [
+                            "rhinovirus_enterovirus=not_detected",
+                            0.0053438084425535435
+                        ],
+                        [
+                            "leukocytes <= 0.00",
+                            0.0026447319303808513
+                        ]
+                    ],
+                    "html": null
+                }
+            }
+        ],
+        "middle": [
+            {
+                "idx": 55,
+                "contents": {
+                    "actual_value": "positive",
+                    "column_names": [
+                        "patient_addmited_to_regular_ward_1_yes_0_no",
+                        "patient_age_quantile",
+                        "rhinovirus_enterovirus",
+                        "monocytes",
+                        "leukocytes"
+                    ],
+                    "class_names": [
+                        "negative",
+                        "positive"
+                    ],
+                    "classes": [
+                        "negative",
+                        "positive"
+                    ],
+                    "predicted_probs": [
+                        0.8134160734133568,
+                        0.1865839265866432
+                    ],
+                    "top_class_name": "negative",
+                    "top_class_prob": 0.8134160734133568,
+                    "feature_contribution": [
+                        [
+                            "patient_addmited_to_regular_ward_1_yes_0_no=t",
+                            0.02658742107631366
+                        ],
+                        [
+                            "patient_age_quantile > 9.25",
+                            0.011425637400721982
+                        ],
+                        [
+                            "rhinovirus_enterovirus=not_detected",
+                            0.005826214625875296
+                        ],
+                        [
+                            "monocytes > 0.00",
+                            0.0041808495346071775
+                        ],
+                        [
+                            "leukocytes <= 0.00",
+                            0.002105117292864596
+                        ]
+                    ],
+                    "html": null
+                }
+            }
+        ],
+        "top": [
+            {
+                "idx": 55,
+                "contents": {
+                    "actual_value": "positive",
+                    "column_names": [
+                        "patient_addmited_to_regular_ward_1_yes_0_no",
+                        "patient_age_quantile",
+                        "rhinovirus_enterovirus",
+                        "monocytes",
+                        "eosinophils"
+                    ],
+                    "class_names": [
+                        "negative",
+                        "positive"
+                    ],
+                    "classes": [
+                        "negative",
+                        "positive"
+                    ],
+                    "predicted_probs": [
+                        0.8134160734133568,
+                        0.1865839265866432
+                    ],
+                    "top_class_name": "negative",
+                    "top_class_prob": 0.8134160734133568,
+                    "feature_contribution": [
+                        [
+                            "patient_addmited_to_regular_ward_1_yes_0_no=t",
+                            0.029611537225038544
+                        ],
+                        [
+                            "patient_age_quantile > 9.25",
+                            0.01192050242515245
+                        ],
+                        [
+                            "rhinovirus_enterovirus=not_detected",
+                            0.005141108262676889
+                        ],
+                        [
+                            "monocytes > 0.00",
+                            0.005043551610836173
+                        ],
+                        [
+                            "eosinophils <= -0.02",
+                            0.0017621914366164077
+                        ]
+                    ],
+                    "html": null
+                }
+            },
+            {
+                "idx": 24,
+                "contents": {
+                    "actual_value": "positive",
+                    "column_names": [
+                        "patient_addmited_to_regular_ward_1_yes_0_no",
+                        "patient_age_quantile",
+                        "rhinovirus_enterovirus",
+                        "monocytes",
+                        "leukocytes"
+                    ],
+                    "class_names": [
+                        "negative",
+                        "positive"
+                    ],
+                    "classes": [
+                        "negative",
+                        "positive"
+                    ],
+                    "predicted_probs": [
+                        0.8336423235544109,
+                        0.16635767644558905
+                    ],
+                    "top_class_name": "negative",
+                    "top_class_prob": 0.8336423235544109,
+                    "feature_contribution": [
+                        [
+                            "patient_addmited_to_regular_ward_1_yes_0_no=f",
+                            -0.023261618128318468
+                        ],
+                        [
+                            "patient_age_quantile > 9.25",
+                            0.011587235227385258
+                        ],
+                        [
+                            "rhinovirus_enterovirus=not_detected",
+                            0.005522183289256493
+                        ],
+                        [
+                            "monocytes > 0.00",
+                            0.004375526233588846
+                        ],
+                        [
+                            "leukocytes <= 0.00",
+                            0.002183008651015511
+                        ]
+                    ],
+                    "html": null
+                }
+            }
+        ]
+    }
+}
